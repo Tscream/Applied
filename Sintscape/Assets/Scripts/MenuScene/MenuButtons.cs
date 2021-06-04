@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MenuButtons : MonoBehaviour
 {
-    public GameObject startUI, hostUI, helpUI;
+    public GameObject startUI, hostUI, helpUI, createGameUI;
 
     public void b_Start()
     {
@@ -22,16 +22,22 @@ public class MenuButtons : MonoBehaviour
     }
     public void b_HostGame()
     {
-        print("Host");
+        hostUI.SetActive(false);
+        createGameUI.SetActive(true);
     }
     public void b_JoinGame()
     {
         print("Joining");
     }
-    public void b_Back()
+    public void b_BackToStartUI()
     {
         startUI.SetActive(true);
         hostUI.SetActive(false);
         helpUI.SetActive(false);
+    }
+    public void b_BackToHostUI()
+    {
+        hostUI.SetActive(true);
+        createGameUI.SetActive(false);
     }
 }
