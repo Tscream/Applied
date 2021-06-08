@@ -5,7 +5,7 @@ using Photon.Pun;
 
 public class ConnectToServer : MonoBehaviourPunCallbacks
 {
-
+/*
 	[SerializeField]
 	private GameObject controlPanel;
 
@@ -99,5 +99,5 @@ public class ConnectToServer : MonoBehaviourPunCallbacks
 
 		}
 	}
-
+*/
 }
