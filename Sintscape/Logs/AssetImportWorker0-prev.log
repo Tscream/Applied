@@ -1,0 +1,2699 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Users/tiyani/Documents/Unity bestanden/2020.3.10f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/tiyani/Documents/Github/Applied/Sintscape
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52577
+Successfully changed project path to: /Users/tiyani/Documents/Github/Applied/Sintscape
+/Users/tiyani/Documents/Github/Applied/Sintscape
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 60.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.10f1 (297d780c91bc)
+[Subsystems] Discovering subsystems at path /Users/tiyani/Documents/Unity bestanden/2020.3.10f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/tiyani/Documents/Github/Applied/Sintscape/Assets
+GfxDevice: creating device client; threaded=0
+2021-06-10 13:21:01.901 Unity[1321:35052] 43UHD_LCD_TV preferred device: Intel HD Graphics 4000 (low power)
+2021-06-10 13:21:01.901 Unity[1321:35052] Metal devices available: 1
+2021-06-10 13:21:01.901 Unity[1321:35052] 0: Intel HD Graphics 4000 (low power)
+2021-06-10 13:21:01.902 Unity[1321:35052] Using device Intel HD Graphics 4000 (low power)
+Initializing Metal device caps: Intel HD Graphics 4000
+Initialize mono
+Mono path[0] = '/Users/tiyani/Documents/Unity bestanden/2020.3.10f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/tiyani/Documents/Unity bestanden/2020.3.10f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Users/tiyani/Documents/Unity bestanden/2020.3.10f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56321
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Users/tiyani/Documents/Unity bestanden/2020.3.10f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Users/tiyani/Documents/Unity bestanden/2020.3.10f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001856 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 56.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.738 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002435 seconds.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of ChatGui:DebugReturn due to: Could not load file or assembly 'Photon3Unity3D, Version=4.1.5.2, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Photon3Unity3D, Version=4.1.5.2, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Could not load signature of Photon.Pun.MonoBehaviourPunCallbacks:OnRoomPropertiesUpdate due to: Could not load file or assembly 'Photon3Unity3D, Version=4.1.5.2, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Photon3Unity3D, Version=4.1.5.2, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Photon.Realtime.IInRoomCallbacks:OnRoomPropertiesUpdate due to: Could not load file or assembly 'Photon3Unity3D, Version=4.1.5.2, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Photon3Unity3D, Version=4.1.5.2, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Photon.Pun.MonoBehaviourPunCallbacks:OnRoomPropertiesUpdate due to: Could not load file or assembly 'Photon3Unity3D, Version=4.1.5.2, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Photon3Unity3D, Version=4.1.5.2, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Photon.Pun.MonoBehaviourPunCallbacks:OnPlayerPropertiesUpdate due to: Could not load file or assembly 'Photon3Unity3D, Version=4.1.5.2, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Photon3Unity3D, Version=4.1.5.2, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Photon.Pun.MonoBehaviourPunCallbacks:OnWebRpcResponse due to: Could not load file or assembly 'Photon3Unity3D, Version=4.1.5.2, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Photon3Unity3D, Version=4.1.5.2, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of ChatGui:DebugReturn due to: Could not load file or assembly 'Photon3Unity3D, Version=4.1.5.2, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Photon3Unity3D, Version=4.1.5.2, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Photon.Pun.MonoBehaviourPunCallbacks:OnRoomPropertiesUpdate due to: Could not load file or assembly 'Photon3Unity3D, Version=4.1.5.2, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Photon3Unity3D, Version=4.1.5.2, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Photon.Pun.MonoBehaviourPunCallbacks:OnPlayerPropertiesUpdate due to: Could not load file or assembly 'Photon3Unity3D, Version=4.1.5.2, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Photon3Unity3D, Version=4.1.5.2, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Photon.Pun.MonoBehaviourPunCallbacks:OnWebRpcResponse due to: Could not load file or assembly 'Photon3Unity3D, Version=4.1.5.2, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Photon3Unity3D, Version=4.1.5.2, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Photon.Pun.MonoBehaviourPunCallbacks:OnRoomPropertiesUpdate due to: Could not load file or assembly 'Photon3Unity3D, Version=4.1.5.2, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Photon3Unity3D, Version=4.1.5.2, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Photon.Pun.MonoBehaviourPunCallbacks:OnPlayerPropertiesUpdate due to: Could not load file or assembly 'Photon3Unity3D, Version=4.1.5.2, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Photon3Unity3D, Version=4.1.5.2, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Photon.Pun.MonoBehaviourPunCallbacks:OnWebRpcResponse due to: Could not load file or assembly 'Photon3Unity3D, Version=4.1.5.2, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Photon3Unity3D, Version=4.1.5.2, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Photon.Pun.MonoBehaviourPunCallbacks:OnRoomPropertiesUpdate due to: Could not load file or assembly 'Photon3Unity3D, Version=4.1.5.2, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Photon3Unity3D, Version=4.1.5.2, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Photon.Pun.MonoBehaviourPunCallbacks:OnPlayerPropertiesUpdate due to: Could not load file or assembly 'Photon3Unity3D, Version=4.1.5.2, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Photon3Unity3D, Version=4.1.5.2, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Photon.Pun.MonoBehaviourPunCallbacks:OnWebRpcResponse due to: Could not load file or assembly 'Photon3Unity3D, Version=4.1.5.2, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Photon3Unity3D, Version=4.1.5.2, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Unloading broken assembly Library/ScriptAssemblies/Assembly-CSharp.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.181 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Users/tiyani/Documents/Unity bestanden/2020.3.10f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.4 MB.
+System memory in use after: 151.5 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2096.
+Total: 3.188759 ms (FindLiveObjects: 0.338022 ms CreateObjectMapping: 0.187386 ms MarkObjects: 2.525646 ms  DeleteObjects: 0.136030 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Store
+  artifactKey: Guid(88bd3ebf1ef014f64b91263716565a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store using Guid(88bd3ebf1ef014f64b91263716565a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99dc5675b7bc4e8d33de1ae054e4d5f') in 1.672614 seconds
+  Import took 1.677635 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004862 seconds.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.064 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1643 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.7 MB.
+System memory in use after: 153.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2100.
+Total: 5.912024 ms (FindLiveObjects: 1.173298 ms CreateObjectMapping: 0.302636 ms MarkObjects: 4.294420 ms  DeleteObjects: 0.139799 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003846 seconds.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.124 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1643 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.8 MB.
+System memory in use after: 153.9 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2104.
+Total: 3.154698 ms (FindLiveObjects: 0.297556 ms CreateObjectMapping: 0.122698 ms MarkObjects: 2.600504 ms  DeleteObjects: 0.132281 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 140.055846 seconds.
+  path: Assets/Custom
+  artifactKey: Guid(fbd429d988d9e4a0ba6a2f881af4e95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom using Guid(fbd429d988d9e4a0ba6a2f881af4e95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72849d3ddb6c6ae6f5cd6277157bc9c6') in 0.010128 seconds
+  Import took 0.017294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018982 seconds.
+  path: Assets/Custom
+  artifactKey: Guid(fbd429d988d9e4a0ba6a2f881af4e95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom using Guid(fbd429d988d9e4a0ba6a2f881af4e95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72849d3ddb6c6ae6f5cd6277157bc9c6') in 0.010695 seconds
+  Import took 0.018077 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003844 seconds.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.079 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1643 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.1 MB.
+System memory in use after: 154.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2108.
+Total: 3.198518 ms (FindLiveObjects: 0.322713 ms CreateObjectMapping: 0.176510 ms MarkObjects: 2.581089 ms  DeleteObjects: 0.116702 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.209265 seconds.
+  path: Assets/Custom/Scripts/MenuScene/MenuButtons.cs
+  artifactKey: Guid(88fec86cae0104fd9bf2c4de8812e9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom/Scripts/MenuScene/MenuButtons.cs using Guid(88fec86cae0104fd9bf2c4de8812e9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3264b9d3b5fb3d691dee99256b420408') in 4.157647 seconds
+  Import took 4.161408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.993107 seconds.
+  path: Assets/Custom/Scenes/Game.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom/Scenes/Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1172c2505e1e42e40f4f34e868000709') in 0.030223 seconds
+  Import took 0.035317 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005231 seconds.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.444 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1643 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.7 MB.
+System memory in use after: 158.8 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2112.
+Total: 3.542472 ms (FindLiveObjects: 0.345779 ms CreateObjectMapping: 0.191191 ms MarkObjects: 2.850769 ms  DeleteObjects: 0.152740 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 327.987992 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(bc110736e76b04651a4c961bd2edf235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(bc110736e76b04651a4c961bd2edf235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c870c737ba4d30a1cd0074f5f860bd8') in 0.009659 seconds
+  Import took 0.014043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.552398 seconds.
+  path: Assets/Resources/Prefabs
+  artifactKey: Guid(9db6a3e94f55b4c78b13ddee4758ea1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs using Guid(9db6a3e94f55b4c78b13ddee4758ea1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c552ad7b1338c9e3af2ded676e9a63') in 0.003050 seconds
+  Import took 0.011096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.783256 seconds.
+  path: Assets/Resources/Prefabs/Prefabs/Player.prefab
+  artifactKey: Guid(101d251020948429d87f94a335ca28f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Prefabs/Player.prefab using Guid(101d251020948429d87f94a335ca28f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc7b0b764ad21cea3daa3c4addcfbd7') in 1.088528 seconds
+  Import took 1.093727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 123.972579 seconds.
+  path: Assets/Resources/PlayerManager.prefab
+  artifactKey: Guid(003111f25ac0c4f86a2edee6df7ed313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/PlayerManager.prefab using Guid(003111f25ac0c4f86a2edee6df7ed313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ac2910cae9e8bd5fe8b4ac941cfd63') in 0.015263 seconds
+  Import took 0.021109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003446 seconds.
+  path: Assets/Resources/PlayerManager.prefab
+  artifactKey: Guid(003111f25ac0c4f86a2edee6df7ed313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/PlayerManager.prefab using Guid(003111f25ac0c4f86a2edee6df7ed313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ac2910cae9e8bd5fe8b4ac941cfd63') in 0.010126 seconds
+  Import took 0.015191 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003950 seconds.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.088 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1643 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.6 MB.
+System memory in use after: 166.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2124.
+Total: 4.416078 ms (FindLiveObjects: 0.572260 ms CreateObjectMapping: 0.196192 ms MarkObjects: 3.540469 ms  DeleteObjects: 0.104654 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005850 seconds.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.787 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1643 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.9 MB.
+System memory in use after: 167.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2128.
+Total: 3.117429 ms (FindLiveObjects: 0.261189 ms CreateObjectMapping: 0.087786 ms MarkObjects: 2.645625 ms  DeleteObjects: 0.121070 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020654 seconds.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.163 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1643 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 167.1 MB.
+System memory in use after: 167.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2132.
+Total: 3.156082 ms (FindLiveObjects: 0.319733 ms CreateObjectMapping: 0.174193 ms MarkObjects: 2.575517 ms  DeleteObjects: 0.085158 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007321 seconds.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.499 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1643 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 167.3 MB.
+System memory in use after: 167.4 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2136.
+Total: 3.423012 ms (FindLiveObjects: 0.381832 ms CreateObjectMapping: 0.181028 ms MarkObjects: 2.735961 ms  DeleteObjects: 0.122494 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004004 seconds.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.086 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1643 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 167.5 MB.
+System memory in use after: 167.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2140.
+Total: 3.344734 ms (FindLiveObjects: 0.324341 ms CreateObjectMapping: 0.196532 ms MarkObjects: 2.730220 ms  DeleteObjects: 0.091943 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008499 seconds.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.158 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1643 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 167.8 MB.
+System memory in use after: 167.9 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2144.
+Total: 3.375996 ms (FindLiveObjects: 0.365003 ms CreateObjectMapping: 0.170825 ms MarkObjects: 2.742766 ms  DeleteObjects: 0.095902 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1531.055819 seconds.
+  path: Assets/Store/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Materials/FlyerPlayership.mat
+  artifactKey: Guid(99fced4bc2985174cac8512dc765d2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Materials/FlyerPlayership.mat using Guid(99fced4bc2985174cac8512dc765d2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391fe247c6c860e65dfd16ff2ac7224a') in 2.069443 seconds
+  Import took 2.107847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/Store/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef
+  artifactKey: Guid(7024f760fc566cf45a16d2c838e22b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef using Guid(7024f760fc566cf45a16d2c838e22b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1cd2b8356711f05bbaf9e18105bf71') in 0.225594 seconds
+  Import took 0.230521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Store/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Textures/FlyerPlayershipOcclusion.tif
+  artifactKey: Guid(34b19bc20b665b240af9c0fc9d0086f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Textures/FlyerPlayershipOcclusion.tif using Guid(34b19bc20b665b240af9c0fc9d0086f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c269f54085315a559fe0577cb36e620') in 0.711127 seconds
+  Import took 0.716454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Store/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Resources/Player Controller.prefab
+  artifactKey: Guid(c9248d8e58293473bb27cf2f5505f88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Resources/Player Controller.prefab using Guid(c9248d8e58293473bb27cf2f5505f88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f91f562be53eda9907ba2f63c81514') in 0.281488 seconds
+  Import took 0.288075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Store/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Textures/FlyerPlayershipAlbedo.tif
+  artifactKey: Guid(b28381ec2a3dce5459a8fd396a0eb560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Textures/FlyerPlayershipAlbedo.tif using Guid(b28381ec2a3dce5459a8fd396a0eb560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a3677a8379532a74d6ea227bb1514c') in 0.007002 seconds
+  Import took 0.011439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Store/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Textures/FlyerPlayershipEmission.tif
+  artifactKey: Guid(88217866776ce4c49944ecb360a5c6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Textures/FlyerPlayershipEmission.tif using Guid(88217866776ce4c49944ecb360a5c6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4fdbcc521336d3e39d0cdd07af062b') in 0.008231 seconds
+  Import took 0.012609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Store/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Prefabs/PlayerListEntry.prefab
+  artifactKey: Guid(d68bf8413681d9b4aa7328277e632e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Prefabs/PlayerListEntry.prefab using Guid(d68bf8413681d9b4aa7328277e632e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6dcf6522b3dba9a7b4791d07b8c86c') in 0.116714 seconds
+  Import took 0.122931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Store/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Prefabs/Player UI.prefab
+  artifactKey: Guid(e41946a981c3b444a84d15eb7c608ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Prefabs/Player UI.prefab using Guid(e41946a981c3b444a84d15eb7c608ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8af7ba85314f081d641fe7fee5d17e') in 0.034237 seconds
+  Import took 0.039014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Store/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Prefabs/PlayerOverviewEntry.prefab
+  artifactKey: Guid(f03d1c686a26a1d4da99a4186b0bb1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Prefabs/PlayerOverviewEntry.prefab using Guid(f03d1c686a26a1d4da99a4186b0bb1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a637af20fe52303d0e6baf16f28f60') in 0.005925 seconds
+  Import took 0.012987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000622 seconds.
+  path: Assets/Store/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/PlayerDiamond.mat
+  artifactKey: Guid(c597444fc6a08854d89baeeff4ba511d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/PlayerDiamond.mat using Guid(c597444fc6a08854d89baeeff4ba511d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8f771658987224f54ceb5f75ffcca8') in 0.745808 seconds
+  Import took 0.783675 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006358 seconds.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.064 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1643 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.0 MB.
+System memory in use after: 184.1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2189.
+Total: 3.316389 ms (FindLiveObjects: 0.321322 ms CreateObjectMapping: 0.171136 ms MarkObjects: 2.727729 ms  DeleteObjects: 0.094934 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004371 seconds.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.208 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1643 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.2 MB.
+System memory in use after: 184.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2193.
+Total: 3.279442 ms (FindLiveObjects: 0.432552 ms CreateObjectMapping: 0.174145 ms MarkObjects: 2.582997 ms  DeleteObjects: 0.088347 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011113 seconds.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.114 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1643 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.4 MB.
+System memory in use after: 184.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2197.
+Total: 3.235021 ms (FindLiveObjects: 0.300068 ms CreateObjectMapping: 0.144944 ms MarkObjects: 2.702022 ms  DeleteObjects: 0.086408 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003883 seconds.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.081 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1643 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.7 MB.
+System memory in use after: 184.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2201.
+Total: 3.364993 ms (FindLiveObjects: 0.325923 ms CreateObjectMapping: 0.088445 ms MarkObjects: 2.842056 ms  DeleteObjects: 0.106716 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017849 seconds.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.755 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1643 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.9 MB.
+System memory in use after: 185.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2205.
+Total: 5.721847 ms (FindLiveObjects: 0.873376 ms CreateObjectMapping: 0.318227 ms MarkObjects: 4.425734 ms  DeleteObjects: 0.101750 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.9 MB.
+System memory in use after: 152.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2205.
+Total: 3.254912 ms (FindLiveObjects: 0.337623 ms CreateObjectMapping: 0.175993 ms MarkObjects: 2.655059 ms  DeleteObjects: 0.085205 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010543 seconds.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.717 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1643 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.1 MB.
+System memory in use after: 185.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2209.
+Total: 4.434298 ms (FindLiveObjects: 0.577265 ms CreateObjectMapping: 0.148065 ms MarkObjects: 3.573452 ms  DeleteObjects: 0.132343 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2459.806000 seconds.
+  path: Assets/Store/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef
+  artifactKey: Guid(e9a89c21e4f5b294eb31fb8166e13303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef using Guid(e9a89c21e4f5b294eb31fb8166e13303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ae14ea5dfa6d68d5d9a21724305f6c') in 0.035129 seconds
+  Import took 0.075758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/Store/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef
+  artifactKey: Guid(66eabdb1ed6f5d041a6906290472e432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef using Guid(66eabdb1ed6f5d041a6906290472e432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0549c47ca176db581211ca9d2bdd0d') in 0.024198 seconds
+  Import took 0.029634 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025750 seconds.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.320 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1524 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.4 MB.
+System memory in use after: 182.5 MB.
+
+Unloading 134 unused Assets to reduce memory usage. Loaded Objects now: 2098.
+Total: 4.200698 ms (FindLiveObjects: 0.618026 ms CreateObjectMapping: 0.234602 ms MarkObjects: 3.112085 ms  DeleteObjects: 0.234136 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005952 seconds.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.460 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1524 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.3 MB.
+System memory in use after: 182.4 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2102.
+Total: 3.372437 ms (FindLiveObjects: 0.428900 ms CreateObjectMapping: 0.184356 ms MarkObjects: 2.654173 ms  DeleteObjects: 0.103366 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004663 seconds.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.552 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1525 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.5 MB.
+System memory in use after: 182.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2107.
+Total: 2.903526 ms (FindLiveObjects: 0.252226 ms CreateObjectMapping: 0.071413 ms MarkObjects: 2.491165 ms  DeleteObjects: 0.086938 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 185.318922 seconds.
+  path: Assets/Resources/PlayerManager.prefab
+  artifactKey: Guid(003111f25ac0c4f86a2edee6df7ed313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/PlayerManager.prefab using Guid(003111f25ac0c4f86a2edee6df7ed313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1556d2f895bf5c381626b9e3e3e429') in 0.107717 seconds
+  Import took 0.126749 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006897 seconds.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.917 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1525 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.7 MB.
+System memory in use after: 182.8 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2111.
+Total: 6.784248 ms (FindLiveObjects: 0.696046 ms CreateObjectMapping: 0.397408 ms MarkObjects: 5.575681 ms  DeleteObjects: 0.112244 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009458 seconds.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 23.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.684 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1525 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.9 MB.
+System memory in use after: 183.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2115.
+Total: 3.394621 ms (FindLiveObjects: 0.312945 ms CreateObjectMapping: 0.150864 ms MarkObjects: 2.837232 ms  DeleteObjects: 0.092096 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 496.900993 seconds.
+  path: Assets/PlayerManager.cs
+  artifactKey: Guid(83132a40ff37449d59a3eb8863f55049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerManager.cs using Guid(83132a40ff37449d59a3eb8863f55049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9d085e0f5b55e7753df7c61891c179') in 0.006659 seconds
+  Import took 0.025627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004211 seconds.
+  path: Assets/PlayerManager.cs
+  artifactKey: Guid(83132a40ff37449d59a3eb8863f55049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerManager.cs using Guid(83132a40ff37449d59a3eb8863f55049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9d085e0f5b55e7753df7c61891c179') in 0.008213 seconds
+  Import took 0.013551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.337829 seconds.
+  path: Assets/Custom/Scenes/Game.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom/Scenes/Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15242739f4b8c1902b0e09c9df8bae31') in 0.026297 seconds
+  Import took 0.032180 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005638 seconds.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.089 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1525 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.1 MB.
+System memory in use after: 183.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2119.
+Total: 4.784211 ms (FindLiveObjects: 0.441274 ms CreateObjectMapping: 0.226951 ms MarkObjects: 4.003670 ms  DeleteObjects: 0.109399 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.309925 seconds.
+  path: Assets/Custom/Scenes/Menu.unity
+  artifactKey: Guid(94065ce8ef3e04282bdb30e2a8d38aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom/Scenes/Menu.unity using Guid(94065ce8ef3e04282bdb30e2a8d38aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5260362fc18266724f4895f6ff0cc0ea') in 0.027816 seconds
+  Import took 0.049205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1914.319808 seconds.
+  path: Assets/Custom/Scenes/Game.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom/Scenes/Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d72289f49dc67e3db339f9fdabe24d') in 0.003338 seconds
+  Import took 0.046853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.725288 seconds.
+  path: Assets/Custom/Scenes/Game
+  artifactKey: Guid(e1e9376cb1eae47ba8756f8331bf6a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom/Scenes/Game using Guid(e1e9376cb1eae47ba8756f8331bf6a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92416350cb2be2495825dc7102be66b8') in 0.002266 seconds
+  Import took 0.011053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000976 seconds.
+  path: Assets/Custom/Scenes/Game
+  artifactKey: Guid(e1e9376cb1eae47ba8756f8331bf6a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom/Scenes/Game using Guid(e1e9376cb1eae47ba8756f8331bf6a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92416350cb2be2495825dc7102be66b8') in 0.003796 seconds
+  Import took 0.011272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048699 seconds.
+  path: Assets/Custom/Scenes/Game/LightingData.asset
+  artifactKey: Guid(c260173301a1a4d51afc97848edddf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom/Scenes/Game/LightingData.asset using Guid(c260173301a1a4d51afc97848edddf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bc0a897a40f95ca011fcafb0fdbd41') in 0.285539 seconds
+  Import took 0.326342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Custom/Scenes/Game/ReflectionProbe-0.exr
+  artifactKey: Guid(31879b59187ed47fd9766eb949fa6c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom/Scenes/Game/ReflectionProbe-0.exr using Guid(31879b59187ed47fd9766eb949fa6c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbf16e54b681af76eeddae61fc00a83') in 0.938119 seconds
+  Import took 0.957760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 147.837880 seconds.
+  path: Assets/Player.prefab
+  artifactKey: Guid(10604244adfe644c68a4452fa36b91bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player.prefab using Guid(10604244adfe644c68a4452fa36b91bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187bfcde1ffcfe355bf520bbed0023e0') in 0.013788 seconds
+  Import took 0.030591 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006663 seconds.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.148 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1526 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 192.0 MB.
+System memory in use after: 192.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2127.
+Total: 6.049315 ms (FindLiveObjects: 0.683027 ms CreateObjectMapping: 0.242629 ms MarkObjects: 4.996399 ms  DeleteObjects: 0.124555 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006826 seconds.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.280 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1527 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 192.2 MB.
+System memory in use after: 192.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2132.
+Total: 4.917726 ms (FindLiveObjects: 0.706897 ms CreateObjectMapping: 0.240512 ms MarkObjects: 3.863883 ms  DeleteObjects: 0.104264 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 514.427609 seconds.
+  path: Assets/Player.prefab
+  artifactKey: Guid(10604244adfe644c68a4452fa36b91bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player.prefab using Guid(10604244adfe644c68a4452fa36b91bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d63fa6b2c6039ae0729119e823e88d') in 0.044356 seconds
+  Import took 0.115174 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003909 seconds.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.839 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1527 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 192.5 MB.
+System memory in use after: 192.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2136.
+Total: 3.998307 ms (FindLiveObjects: 0.604251 ms CreateObjectMapping: 0.403819 ms MarkObjects: 2.891348 ms  DeleteObjects: 0.096801 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006738 seconds.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.140 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1527 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 192.7 MB.
+System memory in use after: 192.8 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2140.
+Total: 3.688604 ms (FindLiveObjects: 0.371981 ms CreateObjectMapping: 0.164371 ms MarkObjects: 3.051075 ms  DeleteObjects: 0.098979 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006435 seconds.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.434 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1527 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 192.9 MB.
+System memory in use after: 193.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2144.
+Total: 2.848755 ms (FindLiveObjects: 0.243596 ms CreateObjectMapping: 0.072765 ms MarkObjects: 2.434931 ms  DeleteObjects: 0.095479 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.079278 seconds.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonChat/Code/PhotonChat.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/PhotonUnityNetworking.Demos.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef)
+
+Required property 'name' not set (Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.092 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1527 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 193.1 MB.
+System memory in use after: 193.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2148.
+Total: 3.280646 ms (FindLiveObjects: 0.326965 ms CreateObjectMapping: 0.160961 ms MarkObjects: 2.703463 ms  DeleteObjects: 0.087720 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

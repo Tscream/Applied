@@ -1,24 +1,20 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - MenuButtons
+    - NetworkController
     PhotonUnityNetworking.Demos.dll:
     - Photon.Pun.Demo.Asteroids.Asteroid
     - Photon.Pun.Demo.Asteroids.Bullet
     - Photon.Pun.Demo.Asteroids.Spaceship
     - Photon.Pun.Demo.PunBasics.CameraWork
-    - Photon.Pun.Demo.PunBasics.GameManager
-    - Photon.Pun.Demo.PunBasics.Launcher
-    - Photon.Pun.Demo.PunBasics.LoaderAnime
     - Photon.Pun.Demo.PunBasics.PlayerAnimatorManager
     - Photon.Pun.Demo.PunBasics.PlayerManager
-    - Photon.Pun.Demo.PunBasics.PlayerNameInputField
     - Photon.Pun.Demo.PunBasics.PlayerUI
     - Photon.Pun.Demo.SlotRacer.PlayerControl
     - Photon.Pun.Demo.SlotRacer.Utils.SplineWalker
     PhotonUnityNetworking.Editor.dll:
     - Photon.Pun.PunSceneSettings
-    PhotonUnityNetworking.Utilities.dll:
-    - Photon.Pun.UtilityScripts.EventSystemSpawner
-    - Photon.Pun.UtilityScripts.OnStartDelete
     PhotonUnityNetworking.dll:
     - Photon.Pun.PhotonAnimatorView
     - Photon.Pun.PhotonRigidbodyView
@@ -30,24 +26,66 @@ ScriptsOnlyBuild:
     Unity.TextMeshPro.dll:
     - TMPro.TMP_ColorGradient
     - TMPro.TMP_FontAsset
+    - TMPro.TMP_InputField
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
-    - UnityEngine.UI.InputField
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.RectMask2D
     - UnityEngine.UI.Shadow
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scenes/PunBasics-Launcher.unity:
+    Assets/Custom/Scenes/Game.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 59
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    Assets/Custom/Scenes/Menu.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -70,11 +108,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
+    - Class: 59
+      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
       Script: {instanceID: 0}
     - Class: 90
       Script: {instanceID: 0}
@@ -84,12 +126,18 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 1478}
     - Class: 114
       Script: {instanceID: 1480}
     - Class: 114
+      Script: {instanceID: 1552}
+    - Class: 114
       Script: {instanceID: 1570}
+    - Class: 114
+      Script: {instanceID: 1648}
     - Class: 114
       Script: {instanceID: 1696}
     - Class: 114
@@ -99,58 +147,56 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1784}
     - Class: 114
-      Script: {instanceID: 2068}
+      Script: {instanceID: 1810}
     - Class: 114
-      Script: {instanceID: 2174}
+      Script: {instanceID: 2070}
     - Class: 114
-      Script: {instanceID: 2222}
+      Script: {instanceID: 2176}
     - Class: 114
-      Script: {instanceID: 2240}
+      Script: {instanceID: 2224}
     - Class: 114
-      Script: {instanceID: 2408}
+      Script: {instanceID: 2312}
     - Class: 114
-      Script: {instanceID: 2682}
+      Script: {instanceID: 2410}
     - Class: 114
-      Script: {instanceID: 2700}
+      Script: {instanceID: 2524}
     - Class: 114
-      Script: {instanceID: 2726}
+      Script: {instanceID: 2564}
     - Class: 114
-      Script: {instanceID: 2882}
+      Script: {instanceID: 2686}
     - Class: 114
-      Script: {instanceID: 2892}
+      Script: {instanceID: 2886}
     - Class: 114
-      Script: {instanceID: 2948}
+      Script: {instanceID: 2894}
     - Class: 114
-      Script: {instanceID: 2978}
+      Script: {instanceID: 2896}
     - Class: 114
-      Script: {instanceID: 3402}
+      Script: {instanceID: 2982}
     - Class: 114
-      Script: {instanceID: 3704}
+      Script: {instanceID: 3408}
     - Class: 114
       Script: {instanceID: 3710}
     - Class: 114
-      Script: {instanceID: 3872}
+      Script: {instanceID: 3716}
     - Class: 114
-      Script: {instanceID: 3892}
+      Script: {instanceID: 3878}
     - Class: 114
-      Script: {instanceID: 3910}
+      Script: {instanceID: 3898}
     - Class: 114
-      Script: {instanceID: 4010}
+      Script: {instanceID: 3916}
     - Class: 114
-      Script: {instanceID: 4184}
+      Script: {instanceID: 3998}
     - Class: 114
-      Script: {instanceID: 4286}
+      Script: {instanceID: 4016}
     - Class: 114
-      Script: {instanceID: 4288}
+      Script: {instanceID: 4294}
     - Class: 114
-      Script: {instanceID: 4438}
+      Script: {instanceID: 4296}
     - Class: 114
-      Script: {instanceID: 4630}
+      Script: {instanceID: 4446}
     - Class: 114
-      Script: {instanceID: 4746}
+      Script: {instanceID: 4754}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 124
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
@@ -179,299 +225,6 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
     - Class: 225
-      Script: {instanceID: 0}
-    - Class: 850595691
-      Script: {instanceID: 0}
-    Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scenes/PunBasics-Room for 1.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
-    - Class: 74
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 90
-      Script: {instanceID: 0}
-    - Class: 91
-      Script: {instanceID: 0}
-    - Class: 95
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1478}
-    - Class: 114
-      Script: {instanceID: 1480}
-    - Class: 114
-      Script: {instanceID: 1570}
-    - Class: 114
-      Script: {instanceID: 1696}
-    - Class: 114
-      Script: {instanceID: 1728}
-    - Class: 114
-      Script: {instanceID: 1944}
-    - Class: 114
-      Script: {instanceID: 2408}
-    - Class: 114
-      Script: {instanceID: 2682}
-    - Class: 114
-      Script: {instanceID: 2882}
-    - Class: 114
-      Script: {instanceID: 2892}
-    - Class: 114
-      Script: {instanceID: 2978}
-    - Class: 114
-      Script: {instanceID: 3710}
-    - Class: 114
-      Script: {instanceID: 3872}
-    - Class: 114
-      Script: {instanceID: 4184}
-    - Class: 114
-      Script: {instanceID: 4286}
-    - Class: 114
-      Script: {instanceID: 4630}
-    - Class: 114
-      Script: {instanceID: 4746}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 124
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 137
-      Script: {instanceID: 0}
-    - Class: 143
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    - Class: 225
-      Script: {instanceID: 0}
-    - Class: 850595691
-      Script: {instanceID: 0}
-    Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scenes/PunBasics-Room for 2.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
-    - Class: 74
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 90
-      Script: {instanceID: 0}
-    - Class: 91
-      Script: {instanceID: 0}
-    - Class: 95
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1478}
-    - Class: 114
-      Script: {instanceID: 1480}
-    - Class: 114
-      Script: {instanceID: 1570}
-    - Class: 114
-      Script: {instanceID: 1696}
-    - Class: 114
-      Script: {instanceID: 1728}
-    - Class: 114
-      Script: {instanceID: 1944}
-    - Class: 114
-      Script: {instanceID: 2408}
-    - Class: 114
-      Script: {instanceID: 2682}
-    - Class: 114
-      Script: {instanceID: 2882}
-    - Class: 114
-      Script: {instanceID: 2892}
-    - Class: 114
-      Script: {instanceID: 2978}
-    - Class: 114
-      Script: {instanceID: 3710}
-    - Class: 114
-      Script: {instanceID: 3872}
-    - Class: 114
-      Script: {instanceID: 4184}
-    - Class: 114
-      Script: {instanceID: 4286}
-    - Class: 114
-      Script: {instanceID: 4630}
-    - Class: 114
-      Script: {instanceID: 4746}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 124
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 137
-      Script: {instanceID: 0}
-    - Class: 143
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    - Class: 225
-      Script: {instanceID: 0}
-    - Class: 850595691
-      Script: {instanceID: 0}
-    Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scenes/PunBasics-Room for 3.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
-    - Class: 74
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 90
-      Script: {instanceID: 0}
-    - Class: 91
-      Script: {instanceID: 0}
-    - Class: 95
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1478}
-    - Class: 114
-      Script: {instanceID: 1480}
-    - Class: 114
-      Script: {instanceID: 1570}
-    - Class: 114
-      Script: {instanceID: 1696}
-    - Class: 114
-      Script: {instanceID: 1728}
-    - Class: 114
-      Script: {instanceID: 1944}
-    - Class: 114
-      Script: {instanceID: 2408}
-    - Class: 114
-      Script: {instanceID: 2682}
-    - Class: 114
-      Script: {instanceID: 2882}
-    - Class: 114
-      Script: {instanceID: 2892}
-    - Class: 114
-      Script: {instanceID: 2978}
-    - Class: 114
-      Script: {instanceID: 3710}
-    - Class: 114
-      Script: {instanceID: 3872}
-    - Class: 114
-      Script: {instanceID: 4184}
-    - Class: 114
-      Script: {instanceID: 4286}
-    - Class: 114
-      Script: {instanceID: 4630}
-    - Class: 114
-      Script: {instanceID: 4746}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 124
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 137
-      Script: {instanceID: 0}
-    - Class: 143
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    - Class: 225
-      Script: {instanceID: 0}
-    - Class: 850595691
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -708,6 +461,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
     className: CountOfPlayersInRoomProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Jimme
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -986,6 +745,12 @@ ScriptsOnlyBuild:
     className: PhotonRigidbody2DView
   - hash:
       serializedVersion: 2
+      Hash: b95b986bfb1a6fbe867db6216b846278
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LauncherScript
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: PhotonUnityNetworking.Utilities.dll
     namespaceName: Photon.Pun.UtilityScripts
@@ -1182,6 +947,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 6f51c7b3a651b2494223b61cc2e3b6fd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Menu
   - hash:
       serializedVersion: 2
       Hash: c656dcc13ae391b68d594cc8f9c590b0
@@ -1742,6 +1513,12 @@ ScriptsOnlyBuild:
     className: LobbyTopPanel
   - hash:
       serializedVersion: 2
+      Hash: 1fe1944c83853aceb615156976f31470
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MenuManager
+  - hash:
+      serializedVersion: 2
       Hash: e4aa02db6487ad3aebb8e2f22ee6b699
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Procedural
@@ -2006,11 +1783,6 @@ ScriptsOnlyBuild:
     className: UserIdUiForm
   platform: 2
   scenePathNames:
-  - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scenes/PunBasics-Launcher.unity
-  - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scenes/PunBasics-Room
-    for 1.unity
-  - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scenes/PunBasics-Room
-    for 2.unity
-  - Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scenes/PunBasics-Room
-    for 3.unity
+  - Assets/Custom/Scenes/Menu.unity
+  - Assets/Custom/Scenes/Game.unity
   playerPath: /Users/tiyani/Desktop/SintscapeBuild.app
