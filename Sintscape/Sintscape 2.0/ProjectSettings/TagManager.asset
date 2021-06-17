@@ -9,6 +9,8 @@ TagManager:
   - Gamedev
   - Gameart
   - Number
+  - WrongImage
+  - RightImage
   layers:
   - Default
   - TransparentFX

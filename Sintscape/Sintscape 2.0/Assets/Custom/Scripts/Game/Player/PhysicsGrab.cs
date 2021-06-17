@@ -10,8 +10,8 @@ public class PhysicsGrab : MonoBehaviour
 	public float m_Speed = 10;
 	public float m_ThrowStrength = 15;
 
-	//Private
-	[SerializeField] private Transform m_Camera;
+    //Private
+    [SerializeField] private Transform m_Camera;
 	[SerializeField] private GameObject m_GrabPos;
 	[SerializeField] private GameObject CurrentInteractable;
 	[SerializeField] private Rigidbody CurRigidbody;
@@ -64,9 +64,9 @@ public class PhysicsGrab : MonoBehaviour
 	{
 		if (!CurrentInteractable)
 		{
-			Ray InteractionRay = new Ray(m_Camera.position, m_Camera.forward);
-			RaycastHit hitInfo;
-			Debug.DrawLine(m_Camera.position, m_Camera.forward * m_InteractionDistance);
+            Ray InteractionRay = new Ray(m_Camera.position, m_Camera.forward);
+            RaycastHit hitInfo;
+            Debug.DrawLine(m_Camera.position, m_Camera.forward * m_InteractionDistance);
 			if (Physics.Raycast(InteractionRay,out hitInfo, m_InteractionDistance))
 			{
 				if (hitInfo.collider.gameObject.tag == "Interactable")
@@ -82,7 +82,19 @@ public class PhysicsGrab : MonoBehaviour
 				{
 					RandomCode._instance.Inputnumber(hitInfo.collider.gameObject.name);
 				}
-			}
+                if (hitInfo.collider.gameObject.tag == "WrongImage")
+                {
+                    GameObject puzzleimage = GameObject.Find("ImagePuzzle");
+                    ImagePuzzle script = (ImagePuzzle)puzzleimage.GetComponent(typeof(ImagePuzzle));
+                    script.WrongImage();      
+                }
+                if (hitInfo.collider.gameObject.tag == "RightImage")
+                {
+                    GameObject puzzleimage = GameObject.Find("ImagePuzzle");
+                    ImagePuzzle script = (ImagePuzzle)puzzleimage.GetComponent(typeof(ImagePuzzle));
+                    script.RightImage();
+                }
+            }
 		}
 	}
 
