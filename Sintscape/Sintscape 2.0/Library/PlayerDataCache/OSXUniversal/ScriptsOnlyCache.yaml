@@ -1,11 +1,16 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - DigitalClock
     - FPSCam
+    - JanitorMovement
     - MenuButtons
     - NetworkController
     - PhysicsGrab
-    - PlayerManager
+    - PlayerManagerArt
+    - PlayerManagerDev
+    NavMeshComponents.dll:
+    - UnityEngine.AI.NavMeshSurface
     PhotonUnityNetworking.Editor.dll:
     - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
@@ -21,6 +26,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshPro
     - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -37,7 +43,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.RectMask2D
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Custom/Scenes/Game.unity:
+    Assets/Scenes/Game.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -58,6 +64,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 59
       Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 89
@@ -67,18 +75,38 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2926}
+      Script: {instanceID: 2530}
     - Class: 114
-      Script: {instanceID: 7284}
+      Script: {instanceID: 2930}
+    - Class: 114
+      Script: {instanceID: 3422}
+    - Class: 114
+      Script: {instanceID: 4914}
+    - Class: 114
+      Script: {instanceID: 5086}
+    - Class: 114
+      Script: {instanceID: 5928}
+    - Class: 114
+      Script: {instanceID: 6762}
+    - Class: 114
+      Script: {instanceID: 7250}
+    - Class: 114
+      Script: {instanceID: 7316}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
+    - Class: 195
+      Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 238
       Script: {instanceID: 0}
     - Class: 258
       Script: {instanceID: 0}
-    Assets/Custom/Scenes/Menu.unity:
+    Assets/Scenes/Menu.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -116,51 +144,53 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1514}
     - Class: 114
-      Script: {instanceID: 1676}
+      Script: {instanceID: 1678}
     - Class: 114
-      Script: {instanceID: 2108}
+      Script: {instanceID: 2110}
     - Class: 114
-      Script: {instanceID: 2330}
+      Script: {instanceID: 2220}
     - Class: 114
-      Script: {instanceID: 2526}
+      Script: {instanceID: 2334}
     - Class: 114
-      Script: {instanceID: 2564}
+      Script: {instanceID: 2530}
     - Class: 114
-      Script: {instanceID: 2734}
+      Script: {instanceID: 2568}
     - Class: 114
-      Script: {instanceID: 2926}
+      Script: {instanceID: 2738}
     - Class: 114
-      Script: {instanceID: 3002}
+      Script: {instanceID: 2930}
     - Class: 114
-      Script: {instanceID: 3776}
+      Script: {instanceID: 3006}
     - Class: 114
-      Script: {instanceID: 3880}
+      Script: {instanceID: 3780}
     - Class: 114
-      Script: {instanceID: 3970}
+      Script: {instanceID: 3884}
     - Class: 114
-      Script: {instanceID: 3984}
+      Script: {instanceID: 3974}
     - Class: 114
-      Script: {instanceID: 4224}
+      Script: {instanceID: 3988}
     - Class: 114
-      Script: {instanceID: 4714}
+      Script: {instanceID: 4228}
     - Class: 114
-      Script: {instanceID: 4904}
+      Script: {instanceID: 4722}
     - Class: 114
-      Script: {instanceID: 4922}
+      Script: {instanceID: 4914}
     - Class: 114
-      Script: {instanceID: 5162}
+      Script: {instanceID: 4936}
     - Class: 114
-      Script: {instanceID: 5452}
+      Script: {instanceID: 5178}
     - Class: 114
-      Script: {instanceID: 5602}
+      Script: {instanceID: 5468}
     - Class: 114
-      Script: {instanceID: 5606}
+      Script: {instanceID: 5618}
     - Class: 114
-      Script: {instanceID: 5910}
+      Script: {instanceID: 5622}
     - Class: 114
-      Script: {instanceID: 7284}
+      Script: {instanceID: 5928}
     - Class: 114
-      Script: {instanceID: 7402}
+      Script: {instanceID: 7316}
+    - Class: 114
+      Script: {instanceID: 7434}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -296,6 +326,12 @@ ScriptsOnlyBuild:
     className: UnityOnJointBreakMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 2df7219e7d9dce6b9c34c37433173bda
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerManagerDev
+  - hash:
+      serializedVersion: 2
       Hash: c1d728126ff1918728036c59106d32b2
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -362,10 +398,10 @@ ScriptsOnlyBuild:
     className: ConnectAndJoinRandom
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 2df7219e7d9dce6b9c34c37433173bda
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: PlayerManager
+    className: PlayerManagerArt
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -824,6 +860,12 @@ ScriptsOnlyBuild:
     className: TMP_TextEventCheck
   - hash:
       serializedVersion: 2
+      Hash: c8c672fee8a258266e51b55a210b8083
+    assemblyName: NavMeshComponents.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshLink
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -908,16 +950,16 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
+      Hash: 7299a528424874bcf6b5736b5305ac37
+    assemblyName: NavMeshComponents.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshModifierVolume
+  - hash:
+      serializedVersion: 2
       Hash: 5ab014248b96f10ad7fc5c02c9cecc79
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MenuButtons
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Jimme
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -936,6 +978,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UIElements
     className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 8d4458b476a9a4dd8df843a849fcfffa
+    assemblyName: NavMeshComponents.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshSurface
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -1070,6 +1118,12 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
+      Hash: 2b19be13f00df62e6d4d4f5539bcad51
+    assemblyName: NavMeshComponents.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshModifier
+  - hash:
+      serializedVersion: 2
       Hash: 8e6ceabfd38a184413d69b7db56c89cc
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
@@ -1080,6 +1134,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 41d5bdf935c5df4fd36bacf6aa1d50fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RandomCode
   - hash:
       serializedVersion: 2
       Hash: bd3f0ca738703903e759f77536ed74fd
@@ -1220,6 +1280,12 @@ ScriptsOnlyBuild:
     className: TMP_TextSelector_B
   - hash:
       serializedVersion: 2
+      Hash: 03080b852001051c43be427fad216fab
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: JanitorMovement
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1302,6 +1368,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseOverMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ac17827519fd420b8f1c02eb9f0a3985
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DigitalClock
   - hash:
       serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
@@ -1424,6 +1496,6 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   platform: 2
   scenePathNames:
-  - Assets/Custom/Scenes/Menu.unity
-  - Assets/Custom/Scenes/Game.unity
+  - Assets/Scenes/Menu.unity
+  - Assets/Scenes/Game.unity
   playerPath: /Users/tiyani/Desktop/SintscapeBuild.app

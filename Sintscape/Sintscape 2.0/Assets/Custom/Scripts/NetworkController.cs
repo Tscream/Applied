@@ -134,8 +134,15 @@ public class NetworkController : MonoBehaviourPunCallbacks
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-		PhotonNetwork.Instantiate("PlayerManager", transform.position, Quaternion.identity);
-    }
+		if(PhotonNetwork.LocalPlayer.IsMasterClient)
+		{
+			PhotonNetwork.Instantiate("PlayerManagerDev", transform.position, Quaternion.identity);
+		}
+        else
+        {
+			PhotonNetwork.Instantiate("PlayerManagerArt", transform.position, Quaternion.identity);
+		}
+	}
 
     void LogFeedback(string message)
 	{
@@ -146,5 +153,4 @@ public class NetworkController : MonoBehaviourPunCallbacks
 
 		feedbackText.text += System.Environment.NewLine + message;
 	}
-
 }

@@ -101,8 +101,8 @@
 -define:PUN_2_19_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"/Users/tiyani/Desktop/Backup aplied/Sintscape 2.0/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/AOT/Newtonsoft.Json.dll"
--r:"/Users/tiyani/Desktop/Backup aplied/Sintscape 2.0/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"/Users/tiyani/Documents/Github/Applied/Sintscape/Sintscape 2.0/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/AOT/Newtonsoft.Json.dll"
+-r:"/Users/tiyani/Documents/Github/Applied/Sintscape/Sintscape 2.0/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"/Users/tiyani/Documents/Unity bestanden/2021.1.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll"
 -r:"/Users/tiyani/Documents/Unity bestanden/2021.1.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll"
 -r:"/Users/tiyani/Documents/Unity bestanden/2021.1.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll"

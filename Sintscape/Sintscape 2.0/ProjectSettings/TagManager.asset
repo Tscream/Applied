@@ -8,6 +8,7 @@ TagManager:
   - Waypoint
   - Gamedev
   - Gameart
+  - Number
   layers:
   - Default
   - TransparentFX
@@ -15,8 +16,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - GameDeveloper
+  - GameArtist
   - 
   - 
   - 
