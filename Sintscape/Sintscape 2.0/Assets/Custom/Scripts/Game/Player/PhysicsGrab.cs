@@ -82,17 +82,9 @@ public class PhysicsGrab : MonoBehaviour
 				{
 					RandomCode._instance.Inputnumber(hitInfo.collider.gameObject.name);
 				}
-                if (hitInfo.collider.gameObject.tag == "WrongImage")
+                if (hitInfo.collider.gameObject.tag == "Image")
                 {
-                    GameObject puzzleimage = GameObject.Find("ImagePuzzle");
-                    ImagePuzzle script = (ImagePuzzle)puzzleimage.GetComponent(typeof(ImagePuzzle));
-                    script.WrongImage();      
-                }
-                if (hitInfo.collider.gameObject.tag == "RightImage")
-                {
-                    GameObject puzzleimage = GameObject.Find("ImagePuzzle");
-                    ImagePuzzle script = (ImagePuzzle)puzzleimage.GetComponent(typeof(ImagePuzzle));
-                    script.RightImage();
+                    ImagePuzzle._instance2.CheckMaterial(hitInfo.collider.gameObject.GetComponent<MeshRenderer>().material);
                 }
             }
 		}

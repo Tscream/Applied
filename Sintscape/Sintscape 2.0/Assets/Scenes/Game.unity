@@ -473,6 +473,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   puzzleLetter: {fileID: 1919960291}
+  randomMaterials:
+  - {fileID: 2100000, guid: 76df9e3f5d8164230941bd7eed4ad050, type: 2}
+  - {fileID: 2100000, guid: e54bdc28f9e0e45c39b9777354275133, type: 2}
+  - {fileID: 2100000, guid: 02d5e8795f2d541318e0c0e72c7699b0, type: 2}
+  - {fileID: 2100000, guid: f23b5fda29e7b43819d11b3c3365bf45, type: 2}
+  - {fileID: 2100000, guid: 6187fb9d0f023476793674a157c9bc27, type: 2}
+  - {fileID: 2100000, guid: 22262639920f43d6be32430e4e58350d, type: 2}
 --- !u!1 &383514711
 GameObject:
   m_ObjectHideFlags: 0
@@ -2255,7 +2262,7 @@ GameObject:
   - component: {fileID: 956792964}
   m_Layer: 6
   m_Name: PuzzleImagesDevelopChoice
-  m_TagString: WrongImage
+  m_TagString: Image
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2307,7 +2314,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: e54bdc28f9e0e45c39b9777354275133, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2351,7 +2358,7 @@ GameObject:
   - component: {fileID: 962411160}
   m_Layer: 6
   m_Name: PuzzleImagesDevelopChoice
-  m_TagString: WrongImage
+  m_TagString: Image
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2953,7 +2960,7 @@ GameObject:
   - component: {fileID: 1236087372}
   m_Layer: 6
   m_Name: PuzzleImagesDevelopChoice
-  m_TagString: WrongImage
+  m_TagString: Image
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3049,7 +3056,7 @@ GameObject:
   - component: {fileID: 1253085924}
   m_Layer: 6
   m_Name: PuzzleImagesDevelopChoice
-  m_TagString: WrongImage
+  m_TagString: Image
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3151,7 +3158,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1269003541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3452,7 +3459,7 @@ GameObject:
   - component: {fileID: 1374579528}
   m_Layer: 6
   m_Name: PuzzleImagesDevelopChoice
-  m_TagString: WrongImage
+  m_TagString: Image
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3645,7 +3652,7 @@ GameObject:
   - component: {fileID: 1471326576}
   m_Layer: 6
   m_Name: PuzzleImagesDevelopChoice
-  m_TagString: RightImage
+  m_TagString: Image
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

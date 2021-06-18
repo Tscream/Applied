@@ -44,7 +44,7 @@ public class RandomCode : MonoBehaviour
     {
         for (int i = 0; i < timeBasedCode.Length; i++)
         {
-            timeBasedCode[i] = Random.RandomRange(1, 9);
+            timeBasedCode[i] = Random.Range(1, 9);
         }
 
         StartCoroutine(ShowCode());
