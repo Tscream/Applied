@@ -32,6 +32,7 @@ public class ImagePuzzle : MonoBehaviour
     public void WrongImage()
     {
         print("o oh stinky");
+        GameObject.Find("Timer").GetComponent<DigitalClock>().timer -= 30;
         //punishment, like time decrease but i dont know what you want to do if you choose the wrong image so here i am
     }
 

@@ -1194,27 +1194,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2729624653143160844, guid: 28aaa95e4f49a46efbeb24328a3d97c2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 31.11
+      value: 20.1
       objectReference: {fileID: 0}
     - target: {fileID: 2729624653143160844, guid: 28aaa95e4f49a46efbeb24328a3d97c2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 25.1
       objectReference: {fileID: 0}
     - target: {fileID: 2729624653143160844, guid: 28aaa95e4f49a46efbeb24328a3d97c2, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9794899
       objectReference: {fileID: 0}
     - target: {fileID: 2729624653143160844, guid: 28aaa95e4f49a46efbeb24328a3d97c2, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2729624653143160844, guid: 28aaa95e4f49a46efbeb24328a3d97c2, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.20149316
       objectReference: {fileID: 0}
     - target: {fileID: 2729624653143160844, guid: 28aaa95e4f49a46efbeb24328a3d97c2, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2729624653143160844, guid: 28aaa95e4f49a46efbeb24328a3d97c2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1222,7 +1222,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2729624653143160844, guid: 28aaa95e4f49a46efbeb24328a3d97c2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 23.249
       objectReference: {fileID: 0}
     - target: {fileID: 2729624653143160844, guid: 28aaa95e4f49a46efbeb24328a3d97c2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -2245,7 +2245,7 @@ MonoBehaviour:
   showText: {fileID: 932229898}
   numberStayTime: 2
   timeBetweenNumber: 1
-  timeForNewCode: 10
+  timeForNewCode: 25
   timeBasedCode: 0000000000000000000000000000000000000000000000000000000000000000
   inputCode: 0000000000000000000000000000000000000000000000000000000000000000
 --- !u!1 &956792962
@@ -2614,16 +2614,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 972589668}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 7.23}
+  m_LocalRotation: {x: -0.07141196, y: -0.084910214, z: -0.0061013885, w: 0.9938075}
+  m_LocalPosition: {x: 0, y: 0, z: 72.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: -8.22, y: -9.767, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 90.1, y: 23.6}
+  m_AnchoredPosition: {x: -17.2, y: 28.62}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &999863301

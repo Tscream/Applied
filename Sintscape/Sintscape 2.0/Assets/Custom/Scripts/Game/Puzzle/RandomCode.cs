@@ -92,6 +92,7 @@ public class RandomCode : MonoBehaviour
         inputCode[indexNumber] = input;
         if (inputCode[7] != 0)
         {
+            int goodanswer = 0;
             for (int i = 0; i < timeBasedCode.Length; i++)
             {
                 if(timeBasedCode[i] != inputCode[i])
@@ -101,9 +102,18 @@ public class RandomCode : MonoBehaviour
                     {
                         inputCode[f] = 0;
                     }
+                    indexNumber = 0;
                     //play wrong input sound
                     return;
                 }
+                else
+                {
+                    goodanswer++;
+                }
+            }
+            if(goodanswer == 8)
+            {
+                Debug.Log("Goed antwoord");
             }
         }
         indexNumber++;

@@ -49,7 +49,6 @@ public class FPSCam : MonoBehaviour
 		transform.Rotate(new Vector3(0, mouseX, 0));
 		if (Input.GetKeyDown("space") && CheckGrounded())
 		{
-			Debug.Log(CheckGrounded());
 			rb.AddForce(transform.up * jumpForce * 10, ForceMode.Impulse);
 		}
 	}
@@ -67,6 +66,5 @@ public class FPSCam : MonoBehaviour
 	private bool CheckGrounded()
 	{
 		return Physics.Raycast(transform.position, -Vector3.up, 10f);
-		Debug.Log("Feest");
 	}
 }
