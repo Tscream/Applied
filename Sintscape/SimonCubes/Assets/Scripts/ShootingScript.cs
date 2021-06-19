@@ -8,9 +8,8 @@ public class ShootingScript : MonoBehaviour
     Ray ray;
     RaycastHit hit;
     public Transform bulletspawn;
-    public int i;
-    LayerMask Blocks = 8;
-    
+    private int i;
+    private int roundNumber;
 
     void Update()
     {
@@ -21,15 +20,15 @@ public class ShootingScript : MonoBehaviour
             
             if(Physics.Raycast(ray, out hit, 10f ))
             {
-                if (Simon.instance.cubesOrder[i] == hit.collider.gameObject)
+                if (Simon.instance.cubesOrder[i].GetComponent<Renderer>().material.color == hit.collider.gameObject.GetComponent<Renderer>().material.color)
                 {
                     i++; print("Good");
                     if (i == Simon.instance.cubesOrder.Count)
                     {
                         i = 0;
-                        Simon.instance.CubePressed();
+                        Simon.instance.NewColors();
+                        roundNumber++;
                     }
-
                 }
                 else               
                 {
@@ -38,9 +37,12 @@ public class ShootingScript : MonoBehaviour
                     {
                         Simon.instance.colors[i].GetComponent<Renderer>().material.color = Color.black;
                     }
-                    
                 }     
             }
+        }
+        if(roundNumber == 4)
+        {
+            print("Hier! heb een letter... {yeet}");
         }
     }
 }

@@ -5,9 +5,11 @@ using UnityEngine;
 public class Simon : MonoBehaviour
 {
     public static Simon instance { get; private set; }
+    public GameObject refrenceObject;
     public List<GameObject> cubesOrder = new List<GameObject>();
     public GameObject[] colors = new GameObject[4];
     public bool Running = false;
+
     void Awake()
     {
         if (instance == null)
@@ -20,16 +22,14 @@ public class Simon : MonoBehaviour
         }
     }
 
-
     private void Update()
     {
         if(Running)
         {
-            foreach(GameObject Cube in colors)
+            foreach (GameObject Cube in colors)
             {
                 Cube.layer = 2;
             }
-            
         }
         else
         {
@@ -45,25 +45,26 @@ public class Simon : MonoBehaviour
     {
        cubesOrder.Add(colors[Random.Range(0, colors.Length)]);
        StartCoroutine(Show());
+       Debug.Log("triggered");
     }
 
-    // Update is called once per frame
-    public void CubePressed()
+    public void NewColors()
     {
         cubesOrder.Add(colors[Random.Range(0,4)]);
         StartCoroutine(Show());
     }
+
     IEnumerator Show()
     {
         Running = true;
         for (int i = 0; i < cubesOrder.Count; i++)
         {
-            yield return new WaitForSeconds(0.5f);
-            Color c = cubesOrder[i].GetComponent<Renderer>().material.color;
-            cubesOrder[i].GetComponent<Renderer>().material.color = Color.white;
-            yield return new WaitForSeconds(0.5f);
-            cubesOrder[i].GetComponent<Renderer>().material.color = c;   
+            yield return new WaitForSeconds(1f);
+            refrenceObject.GetComponent<Renderer>().material.color = cubesOrder[i].GetComponent<Renderer>().material.color;
+            yield return new WaitForSeconds(1f);
+            refrenceObject.GetComponent<Renderer>().material.color = Color.white;
         }
         Running = false;
     }
+
 }

@@ -106,6 +106,10 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"/Users/tiyani/Documents/Github/Applied/Sintscape/SimonCubes/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll"
+-r:"/Users/tiyani/Documents/Github/Applied/Sintscape/SimonCubes/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
+-r:"/Users/tiyani/Documents/Github/Applied/Sintscape/SimonCubes/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll"
+-r:"/Users/tiyani/Documents/Github/Applied/Sintscape/SimonCubes/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll"
 -r:"/Users/tiyani/Documents/Unity bestanden/2021.1.11f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
 -r:"/Users/tiyani/Documents/Unity bestanden/2021.1.11f1/Unity.app/Contents/Managed/UnityEditor.Graphs.dll"
 -r:"/Users/tiyani/Documents/Unity bestanden/2021.1.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll"
@@ -301,10 +305,6 @@
 -r:"/Users/tiyani/Documents/Unity bestanden/2021.1.11f1/Unity.app/Contents/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"/Users/tiyani/Documents/Unity bestanden/2021.1.11f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll"
 -r:"/Users/tiyani/Documents/Unity bestanden/2021.1.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
--r:"/Users/tiyani/Downloads/SimonCubes/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll"
--r:"/Users/tiyani/Downloads/SimonCubes/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
--r:"/Users/tiyani/Downloads/SimonCubes/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll"
--r:"/Users/tiyani/Downloads/SimonCubes/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll"
 -r:"Library/Bee/artifacts/500b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/500b0aEDbg.dag/UnityEngine.UI.ref.dll"
 "Library/PackageCache/com.unity.timeline@1.5.5/Runtime/Activation/ActivationMixerPlayable.cs"
