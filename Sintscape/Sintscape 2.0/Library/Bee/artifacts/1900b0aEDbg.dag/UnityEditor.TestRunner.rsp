@@ -112,7 +112,6 @@
 -define:PUN_2_19_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"/Users/tiyani/Documents/Github/Applied/Sintscape/Sintscape 2.0/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 -r:"/Users/tiyani/Documents/Unity bestanden/2021.1.11f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
 -r:"/Users/tiyani/Documents/Unity bestanden/2021.1.11f1/Unity.app/Contents/Managed/UnityEditor.Graphs.dll"
 -r:"/Users/tiyani/Documents/Unity bestanden/2021.1.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll"
@@ -309,6 +308,7 @@
 -r:"/Users/tiyani/Documents/Unity bestanden/2021.1.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll"
 -r:"/Users/tiyani/Documents/Unity bestanden/2021.1.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll"
 -r:"/Users/tiyani/Documents/Unity bestanden/2021.1.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
+-r:"/Users/tiyani/Downloads/Applied/Sintscape/Sintscape 2.0/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.TestRunner.ref.dll"
 "Library/PackageCache/com.unity.test-framework@1.1.24/UnityEditor.TestRunner/Api/CallbacksDelegator.cs"
 "Library/PackageCache/com.unity.test-framework@1.1.24/UnityEditor.TestRunner/Api/CallbacksDelegatorListener.cs"

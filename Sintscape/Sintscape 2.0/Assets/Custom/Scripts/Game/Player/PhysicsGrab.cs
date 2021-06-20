@@ -43,7 +43,8 @@ public class PhysicsGrab : MonoBehaviour
                 CurRigidbody.angularDrag = 0.05f;
                 CurRigidbody = null;
 				CurrentInteractable.tag = "interactable";
-                CurrentInteractable = null;
+				CurrentInteractable.GetComponent<MeshCollider>().enabled = true;
+				CurrentInteractable = null;
 			}
 		}
         if (Input.GetMouseButtonUp(1))
@@ -54,7 +55,8 @@ public class PhysicsGrab : MonoBehaviour
                 CurRigidbody.angularDrag = 0.05f;
                 CurRigidbody = null;
 				CurrentInteractable.tag = "interactable";
-                CurrentInteractable = null;
+				CurrentInteractable.GetComponent<MeshCollider>().enabled = true;
+				CurrentInteractable = null;
 			}
 		}
 
@@ -73,6 +75,7 @@ public class PhysicsGrab : MonoBehaviour
 				{
 					CurrentInteractable = hitInfo.collider.gameObject;
 					CurrentInteractable.tag = null;
+					CurrentInteractable.GetComponent<MeshCollider>().enabled = false;
 					CurRigidbody = CurrentInteractable.GetComponent<Rigidbody>();					
 					CurRigidbody.rotation = Quaternion.Euler(Vector3.zero);
 					CurRigidbody.angularDrag = 2;
